@@ -1,10 +1,8 @@
 // Start ZooKeeper
     .\bin\windows\kafka-server-start.bat .\config\zookeeper.properties
 
-
 // START Kafka Server
     .\bin\windows\kafka-server-start.bat .\config\server.properties
-
 
 // Creating Topics
     .\bin\windows\kafka-topics.bat --create --bootstrap-server 127.0.0.1:9092 --topic shifa
@@ -14,7 +12,6 @@
     
 // Producer
     .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic shifa
-  
   
 // Listen to topic
     .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic shifa

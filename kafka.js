@@ -18,3 +18,31 @@
     
 // Listen topic FROM BEGINNING (will listen if it already consumed by another consumer)
     .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic shifa --from-beginning
+
+
+
+Consumer
+Producer
+Topic
+ZooKeeper
+ZooKeeper Enemble
+Broker
+Broker Cluster
+Kafka Cluster
+Partition
+Partition Leader (Read/Write operation handle, make sync/replica on all)
+Partition Follower
+Controller
+
+
+
+
+
+
+
+
+
+
+
+
+
